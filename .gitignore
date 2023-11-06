@@ -2,6 +2,8 @@
 
 # dependencies
 hello-react/node_modules
+**/node_modules
+**/build
 /.pnp
 .pnp.js
 
