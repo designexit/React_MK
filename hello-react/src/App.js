@@ -38,8 +38,49 @@ function App() {
 
   //undefined렌더링 안하기
   // 대책 || (or연산자)를 이용함
-  const name = undefined;
-  return name || '값이 undefined입니다'
+  // const name = undefined;
+  // return name || '값이 undefined입니다'
+
+  //인라인 스타일링 기본
+  const name = "Kim Min Kyoung"
+  // const style = {
+  //   backgroundColor: "#ddd",
+  //   color: "yellow",
+  //   fontSize: "50px",
+  //   };
+  //   return <div style={style}>{name}</div>;
+
+  // return (
+  //   <div style={{ backgroundColor: "red", color: "yellow", fontSize: "50px" }}>
+  //   {name}
+  //   <div className="reactTest">김민경</div>
+  //   </div>
+  //   );
+
+
+  // 닫아야 하는 태크
+  // return(
+  //   <div>
+  //     <form>
+  //     이름 : <br/>
+  //     <input></input>
+  //     <input/>
+  //     </form>
+  //   </div>
+  // );
+
+
+  //주석 : 태그내부 - command + /
+  return(
+    <div>
+      {/* <form>
+      이름 : <br/>
+      <input></input>
+      <input/>
+      </form> */}
+    </div>
+  );
+  
   
 }
 

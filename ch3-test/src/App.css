@@ -36,12 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.reactTest {
-  text-decoration: underline;
-  background-color: aquamarine;
-  color: #282c34;
-  font-size: 100px;
-  font-weight: bold;
-  padding: 16px;
-}
