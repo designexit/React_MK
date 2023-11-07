@@ -1,0 +1,10 @@
+.funcCopm {
+  background-color: coral;
+  color: rgb(53, 34, 21);
+  font-size: 2rem;
+}
+.fontStyle {
+  color: rgb(36, 86, 194);
+  text-decoration: underline;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
