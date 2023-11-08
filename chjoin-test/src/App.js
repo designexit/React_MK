@@ -3,6 +3,8 @@ import './App.css';
 //자식
 import Join from './component/Join';
 import Main from './component/Main';
+import MyCount from './component/MyCount';
+import RefPracticeScrollTest from './ch5-component/RefPracticeScrollTest';
 import { Button, Space, DatePicker, version } from "antd";
 //페이지 이동을 위한 설정
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -16,8 +18,10 @@ function App() {
       <Routes>
         {/* index로 사용할 페이지 설정 */}
         <Route index element = {<Main/>} />
-        {/* element : 이동할 컴포넌트 */}
-        <Route path='join' element = {<Join/>} />
+        {/* path : 해당 페이지, element : 이동할 컴포넌트 */}
+        <Route path='Join' element = {<Join/>} />
+        <Route path='MyCount' element = {<MyCount/>} />
+        <Route path='scrollRefTest' element = {<RefPracticeScrollTest/>} />
       </Routes>
       <div className="App">
       <header className="App-header">
