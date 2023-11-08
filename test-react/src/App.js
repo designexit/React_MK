@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import PropsTest from './component/PropsTest';
 
 function App() {
   return (
@@ -14,8 +15,19 @@ function App() {
       </div>
       {/* <div><img src={ require('./public/meon.png') } /></div> */}
       <div><img src="images/meon.png" style={{width:"200px"}}></img></div>
+
+
+      {/* props test */}
+      <PropsTest name="Nova" type="Norwegian forest cat">까칠 츤델</PropsTest>
+
+
     </div>
     
+
+    
+    
+
+
   );
 }
 

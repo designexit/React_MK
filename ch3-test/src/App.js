@@ -6,6 +6,8 @@ import FuncComponent from './component/FuncComponent';
 import MyComp from './component/MyComp';
 import './css/style.css';
 import Count from './component/Count';
+import MyCount from './component/MyCount';
+import MySay from './component/MySay';
 
 function App() {
   return (
@@ -20,8 +22,11 @@ function App() {
 
       {/* 자식 컴포넌트에게 child 라는 속성으로 전달하기.  */}
       {/* <MyComp name="김민경" password="1234567">김민경 어린이</MyComp> */}
-      
+
       <Count/>
+      <MyCount/>
+      <MySay/>
+    
 
 
     </div>
