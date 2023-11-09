@@ -7,14 +7,29 @@ import MyCount from './component/MyCount';
 import RefPracticeScrollTest from './ch5-component/RefPracticeScrollTest';
 import DataListKeyAddDelTest from './ch6-component/DataListKeyAddDelTest';
 import LifeCycle from './ch7-classlifecycle/LifeCycle';
-import InfoTestUseState from './ch8-hookstest/InfoTestUseState';
-import InfoTestUseEffect from './ch8-hookstest/InfoTestUseEffect';
 import { Button, Space, DatePicker, version } from "antd";
 //페이지 이동을 위한 설정
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
+  //색상을 랜덤하게 변경시켜 이전 상태와 props, snapshot확인
+  function getRandomColor(){
+    return "#" + Math.floor(Math.random()*16777215).toString(16)
+  }
+
+  //부모 app -> 자식 컴포넌트로 props에 컬러 전달
+  //초기값 세팅
+  const [color, setColor] 
+  state = {
+    color : "#000000",
+  };
+  //자식에게 색을 전달하기 위한 이벤트 함수 수행
+  handleClick = () => {
+    this.setState({
+
+    })
+  }
 
   return (
     
@@ -31,8 +46,6 @@ function App() {
         <Route path='scrollRefTest' element = {<RefPracticeScrollTest/>} />
         <Route path='listKeyAddDel' element = {<DataListKeyAddDelTest/>} />
         <Route path='ClassLifeCycleTest' element = {<LifeCycle/>} />
-        <Route path='hooksUseStateTest' element = {<InfoTestUseState/>} />
-        <Route path='hooksEffectTest' element = {<InfoTestUseEffect/>} />
       </Routes>
       <div className="App">
       <header className="App-header">

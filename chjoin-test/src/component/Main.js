@@ -70,6 +70,21 @@ const Main = () => {
           <div>
             <Button title="Ref 이동" onClick={() => navigate("/scrollRefTest")} type='primary'>Ref 이동</Button>
           </div>
+
+          <div>
+            <Button title="이동" onClick={() => navigate("/listKeyAddDel")} type='primary'>Data list key add del</Button>
+          </div>
+
+          <div>
+            <Button title="생명주기 컴포넌트" onClick={() => navigate("/ClassLifeCycleTest")} type='primary'>생명주기 컴포넌트</Button>
+          </div>
+
+          <div>
+            <Button title="UseState" onClick={() => navigate("/hooksUseStateTest")} type='primary'>hooks UseState test</Button>
+          </div>
+          <div>
+            <Button title="UseEffect" onClick={() => navigate("/hooksEffectTest")} type='primary'>hooks UseEffect test</Button>
+          </div>
         </Container>
       </Wrapper>
     </div>
