@@ -85,6 +85,15 @@ const Main = () => {
           <div>
             <Button title="UseEffect" onClick={() => navigate("/hooksEffectTest")} type='primary'>hooks UseEffect test</Button>
           </div>
+          <div>
+            <Button title="Reducer" onClick={() => navigate("/hooksReducerTest")} type='primary'>hooks Reducer test</Button>
+          </div>
+          <div>
+            <Button title="Reducer" onClick={() => navigate("/hooksReducerTest2")} type='primary'>hooks Reducer test2</Button>
+          </div>
+          <div>
+            <Button title="UseMemo" onClick={() => navigate("/UseMemo")} type='primary'>UseMemo</Button>
+          </div>
         </Container>
       </Wrapper>
     </div>

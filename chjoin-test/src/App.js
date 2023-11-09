@@ -9,9 +9,12 @@ import DataListKeyAddDelTest from './ch6-component/DataListKeyAddDelTest';
 import LifeCycle from './ch7-classlifecycle/LifeCycle';
 import InfoTestUseState from './ch8-hookstest/InfoTestUseState';
 import InfoTestUseEffect from './ch8-hookstest/InfoTestUseEffect';
+import CountUseReducerTest from './ch8-hookstest/CountUseReducerTest';
+import AverageUseMemoTest from './ch8-hookstest/AverageUseMemoTest'
 import { Button, Space, DatePicker, version } from "antd";
 //페이지 이동을 위한 설정
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import InfoTestUseReducer from './ch8-hookstest/InfoTestUseReducer';
 
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
         <Route path='ClassLifeCycleTest' element = {<LifeCycle/>} />
         <Route path='hooksUseStateTest' element = {<InfoTestUseState/>} />
         <Route path='hooksEffectTest' element = {<InfoTestUseEffect/>} />
+        <Route path='hooksReducerTest' element = {<CountUseReducerTest/>} />
+        <Route path='hooksReducerTest2' element = {<InfoTestUseReducer/>} />
+        <Route path='UseMemo' element = {<AverageUseMemoTest/>} />
       </Routes>
       <div className="App">
       <header className="App-header">
