@@ -94,6 +94,24 @@ const Main = () => {
           <div>
             <Button title="UseMemo" onClick={() => navigate("/UseMemo")} type='primary'>UseMemo</Button>
           </div>
+          <div>
+            <Button title="UseCallback" onClick={() => navigate("/UseCallback")} type='primary'>UseCallback</Button>
+          </div>
+          <div>
+            <Button title="UseRef" onClick={() => navigate("/UseRefTest")} type='primary'>UseRef</Button>
+          </div>
+          <div>
+            <Button title="UseParamsTest" onClick={() => navigate("/UseParamsTest")} type='primary'>UseParamsTest</Button>
+          </div>
+          <div>
+            <Button title="TestSass" onClick={() => navigate("/SassTest")} type='primary'>SassTest</Button>
+          </div>
+          <div>
+            <Button title="StyledComponentsTest" onClick={() => navigate("/styledComponentsTest")} type='primary'>StyledComponentsTest</Button>
+          </div>
+          <div>
+            <Button title="TodoMain" onClick={() => navigate("/todoMain")} type='primary'>TodoMain</Button>
+          </div>
         </Container>
       </Wrapper>
     </div>

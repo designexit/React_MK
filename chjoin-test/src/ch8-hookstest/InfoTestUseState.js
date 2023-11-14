@@ -7,18 +7,18 @@ const InfoTestUseState = () => {
   // 1 name : state 상태값
   // 2 setName : 세터 함수를 반환. -> 업데이트를 하는 함수.
   // setName -> name 의 값을 업데이트 해줌.
-  const [name, setName] = useState ('');
-  const [nickname, setNickName] = useState ('');
+  const [name, setName] = useState('');
+  const [nickname, setNickName] = useState('');
 
   //이벤트 핸들러 추가
   // 1. 이름 캐멀케이스 표기법, 2. 인자로는 함수 형태로 전달.
-  const onChangeName = (e) => {
-    setName(e.target.value)
-  }
+  const onChangeName = e => {
+    setName(e.target.value);
+  };
 
-  const onChangeNickName = (e) => {
-    setNickName(e.target.value)
-  }
+  const onChangeNickName = e => {
+    setNickName(e.target.value);
+  };
 
   //결과 출력하기. 작성 문법은 JSX -> 기존 HTML 형식과 동일.
   // 리액트 컴포넌트는 대문자 시작,

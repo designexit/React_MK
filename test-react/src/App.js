@@ -4,6 +4,7 @@ import PropsTest from './component/PropsTest';
 import Main from './component/MyMainTest';
 import Join from './component/MyJoin';
 import Login from './component/MyLogin';
+import HooksUseState from './component/HooksUseState';
 // import { Button, Space, DatePicker, version } from "antd";
 // //페이지 이동을 위한 설정
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
         <Route index element = {<Main/>}/>
         <Route path='Join' element = {<Join/>} />
         <Route path='Login' element = {<Login/>} />
+        <Route path='Hooks' element = {<HooksUseState/>} />
       </Routes>
       {/* <div style={{padding:"2rem"}}>
         <h1>React Test</h1>
