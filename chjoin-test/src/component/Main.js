@@ -112,6 +112,33 @@ const Main = () => {
           <div>
             <Button title="TodoMain" onClick={() => navigate("/todoMain")} type='primary'>TodoMain</Button>
           </div>
+          <div>
+            <Button title="ImmerTest" onClick={() => navigate("/ImmerTest")} type='primary'>ImmerTest</Button>
+          </div>
+          <div>
+            <Button title="TestZone" onClick={() => navigate("/testZone")} type='primary'>TestZone</Button>
+          </div>
+          <div>
+            <Button title="ApiTest" onClick={() => navigate("/ApiTest")} type='primary'>ApiTest</Button>
+          </div>
+          <div>
+            <Button title="ApiTest2" onClick={() => navigate("/ApiTest2")} type='primary'>ApiTestKoreaNews</Button>
+          </div>
+          <div>
+            <Button title="ApiTest3" onClick={() => navigate("/ApiTest3")} type='primary'>ApiTestKoreaNews Main</Button>
+          </div>
+          <div>
+          <Button
+            title="newsPageTest/:category" type="primary" onClick={() => {navigate("/newsPageTest/all");}}>newsPageTest/:category 확인
+          </Button>
+          </div>
+          <div>
+            <Button title="contextAPITest" onClick={() => navigate("/contextAPITest")} type='primary'>contextAPITest</Button>
+          </div>
+          <div>
+            <Button title="contextAPITest2" onClick={() => navigate("/contextAPITest2")} type='primary'>contextAPITest Main</Button>
+          </div>
+
         </Container>
       </Wrapper>
     </div>

@@ -21,6 +21,14 @@ import AverageUseParamsTest from './ch8-hookstest/AverageUseParamsTest';
 import TestSass from './ch9-component/TestSass';
 import StyledComponentsTest from './ch9-component/StyledComponentsTest';
 import TodoMain from './ch10-TodoTest/TodoMain';
+import ImmerTest from './ch12-immerTest/ImmerTest';
+import TestZone from './ch12-immerTest/ImmerTest';
+import ApiTest from './ch13-API_PublicDataTest/ApiTest';
+import ApiTestKoreaNews from './ch13-API_PublicDataTest/ApiTestKoreaNews';
+import MainNews from './ch13-API_PublicDataTest/component/MainNews';
+import NewsPage from './ch13-API_PublicDataTest/page/NewsPage';
+import TestColorBox from './ch14-contextAPITest/TestColorBox';
+import TestColorMain from './ch14-contextAPITest/TestColorMain'
 
 function App() {
   return (
@@ -48,6 +56,14 @@ function App() {
         <Route path="SassTest" element={<TestSass/>} />
         <Route path="styledComponentsTest" element={<StyledComponentsTest/>} />
         <Route path="todoMain" element={<TodoMain/>} />
+        <Route path="immerTest" element={<ImmerTest/>} />
+        <Route path="testZone" element={<TestZone/>} />
+        <Route path="ApiTest" element={<ApiTest/>} />
+        <Route path="ApiTest2" element={<ApiTestKoreaNews/>} />
+        <Route path="ApiTest3" element={<MainNews/>} />
+        <Route path="newsPageTest/:category" element={<NewsPage />} />
+        <Route path="contextAPITest" element={<TestColorBox/>} />
+        <Route path="contextAPITest2" element={<TestColorMain/>} />
       </Routes>
       
       <div className="App">

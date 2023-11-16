@@ -14,8 +14,8 @@ const TodoBaseTemp = styled.div`
   overflow: hidden;
 `;
 const AppTitle = styled.div`
-  background: green;
-  color: black;
+  background: #746fbb;
+  color: #fff;
   height: 4rem;
   font-size: 1.5rem;
   display: flex;
